@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-02-20T21:10:54.618Z",
+  "config": {
+    "projectId": "perfum-5b31c",
+    "location": "us-central1",
+    "functionName": "getRecommendationV2",
+    "storeId": "kJDJck8PThH4YjT7rWyH",
+    "gender": "male",
+    "numRequests": 1000,
+    "concurrency": 10,
+    "timeoutMs": 10000,
+    "apiKey": "AIzaSyC6Bm7ktcwC6FyRB-D_2xdpm-VfmhlLpsE"
+  },
+  "results": {
+    "total": 1000,
+    "successful": 1000,
+    "failed": 0,
+    "successRate": 100,
+    "p50": 345,
+    "p95": 538,
+    "p99": 4062,
+    "throughput": 19.330395113276115,
+    "totalTimeMs": 51732
+  },
+  "sampleErrors": []
+}

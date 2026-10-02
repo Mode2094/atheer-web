@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-02-20T20:50:44.998Z",
+  "config": {
+    "projectId": "perfum-5b31c",
+    "location": "us-central1",
+    "functionName": "getRecommendationV2",
+    "storeId": "test_store",
+    "gender": "male",
+    "numRequests": 1000,
+    "concurrency": 10,
+    "timeoutMs": 10000,
+    "apiKey": "AIzaSyC6Bm7ktcwC6FyRB-D_2xdpm-VfmhlLpsE"
+  },
+  "results": {
+    "total": 1000,
+    "successful": 0,
+    "failed": 1000,
+    "successRate": 0,
+    "p50": 0,
+    "p95": 0,
+    "p99": 0,
+    "throughput": 25.2187728545129,
+    "totalTimeMs": 39653
+  },
+  "sampleErrors": [
+    "{\"error\":{\"message\":\"User not found\",\"status\":\"PERMISSION_DENIED\"}}",
+    "{\"error\":{\"message\":\"User not found\",\"status\":\"PERMISSION_DENIED\"}}",
+    "{\"error\":{\"message\":\"User not found\",\"status\":\"PERMISSION_DENIED\"}}",
+    "{\"error\":{\"message\":\"User not found\",\"status\":\"PERMISSION_DENIED\"}}",
+    "{\"error\":{\"message\":\"User not found\",\"status\":\"PERMISSION_DENIED\"}}"
+  ]
+}
